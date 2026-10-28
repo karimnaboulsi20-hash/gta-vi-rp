@@ -271,17 +271,7 @@ export default function App() {
           )}
         </div>
 
-        {/* Hero CTA Button (Pulsing) */}
-        <div className="text-center mt-10">
-          <button 
-            onClick={scrollToPricing}
-            className="w-full sm:w-auto px-12 py-6 bg-rose-500 hover:bg-rose-400 text-white font-black text-xl sm:text-2xl rounded-2xl shadow-xl shadow-rose-500/40 transition-all transform hover:scale-105 flex items-center justify-center gap-3 mx-auto animate-pulse"
-          >
-            <span>QUERO MUDAR DE VIDA COM GTA VI RP</span>
-            <ArrowRight className="w-7 h-7" />
-          </button>
-          <p className="text-xs text-zinc-400 mt-3">⚡ Oferta exclusiva de <span className="text-rose-500 font-bold">Black Friday</span> — <span className="text-rose-500">Desconto</span> válido apenas hoje.</p>
-        </div>
+
       </section>
 
       {/* SOCIAL PROOF BAR */}
