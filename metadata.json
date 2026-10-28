@@ -1,0 +1,6 @@
+{
+  "name": "Mestres do GTA VI RP com IA",
+  "description": "Aprenda a faturar alto programando mapas e servidores de GTA VI RP usando Inteligência Artificial, sem saber programar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
