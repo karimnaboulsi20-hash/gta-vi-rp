@@ -11,6 +11,8 @@ import {
   Clock, Flame, Check, CreditCard, X, MessageSquare, Timer, ShoppingBag, Radio,
   MoreVertical, CheckCheck, Eye
 } from 'lucide-react';
+import courseModuleAiImg from './assets/images/course_module_ai_1793160202557.jpg';
+import gta6HeroBannerImg from './assets/images/gta6_hero_banner_1793160202521.jpg';
 
 export default function App() {
   // VSL State
@@ -186,7 +188,7 @@ export default function App() {
           {/* Video Screen / Poster */}
           <div className="relative aspect-video w-full bg-zinc-900 group cursor-pointer overflow-hidden" onClick={() => setIsPlaying(!isPlaying)}>
             <img 
-              src="/src/assets/images/gta6_hero_banner_1793160202521.jpg" 
+              src={gta6HeroBannerImg} 
               alt="GTA VI RP Map Maker Preview" 
               className={`w-full h-full object-cover transition-transform duration-700 ${isPlaying ? 'scale-105 opacity-90' : 'group-hover:scale-105'}`}
             />
@@ -407,9 +409,10 @@ export default function App() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-xl">
               <img 
-                src="/src/assets/images/course_module_ai_1793160202557.jpg" 
+                src={courseModuleAiImg} 
                 alt="AI Code Generator Dashboard" 
                 className="w-full h-auto object-cover"
+                loading="eager"
               />
             </div>
           </div>
